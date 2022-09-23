@@ -1,0 +1,123 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #462255;
+}
+
+html {
+    background-color: #eefdf3
+}
+
+header {
+    overflow: hidden;
+    background-color: #62A87C;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #62A87C;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    height: 70px;
+}
+
+header > a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header > a:hover {
+    color: #582b6a;
+    background-color: #7EE081;
+    border-radius: 15px;
+}
+
+header > .icon {
+    width: 70px;
+    height: 70px;
+    padding-right: 3%;
+    float: right;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.sides {
+    background-color: #62A87C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 10%;
+    align-self: stretch;
+}
+
+.posts-container {
+    flex-grow: 2;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    row-gap: 10px;
+}
+
+.post {
+    background-color: #d1f7d3;
+    border-radius: 10px;
+}
+.post > * {
+    padding: 10px;
+    border-radius: 10px;
+}
+.post-top {
+    background-color: #8deaaf;
+    display: flex;
+    justify-content: space-between;
+}
+.post-bottom {
+    background-color: #8deaaf;
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+}
+
+.post-bottom > img {
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.comment-input > .icon {
+    width: 20px;
+    height: 20px;
+}
+
+.post-content {
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.post-content::first-letter {
+    font-size: large;
+}
+.post-content > img {
+    width: 100%;
+    object-fit: contain;  
+}
