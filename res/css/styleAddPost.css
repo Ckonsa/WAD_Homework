@@ -1,0 +1,77 @@
+.addPost-container {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    /* max-width: 700px; */
+    align-content: center;
+    justify-self: center;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: var(--post-top-bottom-blue);
+    border-radius: 15px;
+    border: none;
+}
+
+.form-content {
+    margin: 15px;
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form-content>.post-body-label {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.form-content>p {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    text-align: end;
+    margin-right: 15px;
+}
+
+.form-content>input[type=text] {
+    width: 100%;
+    height: 60px;
+}
+
+.form-content>input[type=file] {
+    display: none;
+}
+
+.form-file-upload-button {
+    width: 100%;
+    background-color: #7f7f7f;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.submit-form {
+    background-color: var(--header-footer-blue);
+    border: 1px solid black;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    width: 50%;
+    font-weight: lighter;
+}
+
+.hidden {
+    display: none;
+}
