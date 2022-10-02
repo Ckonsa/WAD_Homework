@@ -45,7 +45,7 @@ main a {
 }
 
 h1 ~ h2 {
-    margin: 0%;
+    margin: 0;
 }
 
 form + h2 {
