@@ -1,5 +1,5 @@
-fetch("../res/posts.json") // https://www.tutorialstonight.com/read-json-file-in-javascript#fetch
-.then(function (response) {
+fetch("../res/posts.json") // Insted of path to json file, URI can be used here
+.then(function (response) { 
     return response.json();
 })
 .then(function (data) {
@@ -33,10 +33,12 @@ fetch("../res/posts.json") // https://www.tutorialstonight.com/read-json-file-in
             postImage.src = data[i].image;
             postContent.appendChild(postImage);
         }
-        const postText = document.createElement("p");
-        postText.innerText = data[i].text;
+        if (data[i].text !== null) { // Adds a text
+            const postText = document.createElement("p");
+            postText.innerText = data[i].text;
+            postContent.appendChild(postText);
+        }
 
-        postContent.appendChild(postText);
         postContainer.appendChild(postContent);
 
         const postBottom = document.createElement("div");
@@ -67,5 +69,5 @@ fetch("../res/posts.json") // https://www.tutorialstonight.com/read-json-file-in
 
         postsContainer.appendChild(postContainer);
     }
-})
+}) // https://www.tutorialstonight.com/read-json-file-in-javascript#fetch
 

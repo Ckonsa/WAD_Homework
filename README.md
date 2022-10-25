@@ -1,6 +1,8 @@
-# WAD_Homework1
-Repository for Homework nr 1. 
+# WAD_Homework
+Repository for WAD Homework. 
 Team nr 29: Charleen Konsa, Johann Mattias Kammiste, Joonatan Ehlvest
 
 Images: https://www.pexels.com/
 Icons: https://icons8.com/
+
+JSON validated with https://jsononline.net/json-validator

@@ -25,8 +25,44 @@
     },
     {
         "authorIcon": "res/images/student3.png",
+        "createTime": "Oct 15, 2022",
+        "text":"Look, my new kitten!",
+        "image": "res/images/kitten.jpg"
+    },
+    {
+        "authorIcon": "res/images/student2.png",
         "createTime": "Oct 11, 2022",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non curabitur gravida arcu ac tortor dignissim convallis aenean. Duis tristique sollicitudin nibh sit amet commodo nulla. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Aenean euismod elementum nisi quis. Eget lorem dolor sed viverra ipsum. Massa placerat duis ultricies lacus sed turpis tincidunt. Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Odio euismod lacinia at quis risus sed. Lacinia quis vel eros donec. Nulla malesuada pellentesque elit eget gravida. Non sodales neque sodales ut etiam sit amet. Sed pulvinar proin gravida hendrerit lectus a. Penatibus et magnis dis parturient. Nunc sed velit dignissim sodales ut eu sem.",
+        "image": null
+    },
+    {
+        "authorIcon": "res/images/student2.png",
+        "createTime": "Oct 11, 2022",
+        "text": "Mr. Spleepy lol:DD",
+        "image": "res/images/sleeping-man.jpg"
+    },
+    {
+        "authorIcon": "res/images/student.png",
+        "createTime": "Oct 10, 2022",
+        "text": "I can not wait to finally get home!!!",
+        "image": null
+    },
+    {
+        "authorIcon": "res/images/student2.png",
+        "createTime": "Oct 9, 2022",
+        "text":"i really dont understand what im learning rn",
+        "image": null
+    },
+    {
+        "authorIcon": "res/images/student3.png",
+        "createTime": "Oct 5, 2022",
+        "text": null,
+        "image": "res/images/students.jpg"
+    },
+    {
+        "authorIcon": "res/images/student.png",
+        "createTime": "Oct 4, 2022",
+        "text":"Sb free tonight?",
         "image": null
     }
 ]
