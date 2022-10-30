@@ -50,6 +50,7 @@ header>.icon {
     border-radius: 50%;
     border-style: dotted;
     border-color: var(--almost-white);
+    cursor: pointer;
 }
 
 footer {
@@ -80,6 +81,28 @@ footer a:hover {
     width: 50px;
     height: 50px;
 }
+
+.dropdown_list {
+    display: none;
+    position: absolute;
+    right: 8px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    min-height: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: var(--post-top-bottom-blue);
+    border-radius: 5px;
+}
+
+.dropdown_list>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.show {
+    display: block;
+}
+
 
 @media screen and (max-width: 480px) {
     header {
