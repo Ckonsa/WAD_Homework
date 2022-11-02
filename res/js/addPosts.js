@@ -1,4 +1,5 @@
-fetch("https://api.npoint.io/467482c0042ae90412d6") // Insted of path to json file, URI can be used here
+//fetch("https://api.npoint.io/467482c0042ae90412d6") // Fetching json file from online source
+fetch("../res/posts.json") // Fetching json from a file
     .then(function (response) {
         return response.json();
     })
